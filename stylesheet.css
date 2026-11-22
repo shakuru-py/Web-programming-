@@ -1,0 +1,30 @@
+a:link {
+    color:blue;
+    text-decoration: underline;
+    background-color: transparent;
+}
+a:hover {
+    color: yellowgreen;
+    background-color: green;
+    text-decoration: none;
+}
+a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: line-through;
+}
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: wavy;
+
+}
+h1 {
+    background-color: black;
+    border: 2px solid red;
+    font-size: large;
+    text-align: center;
+}
+body {
+    background-color: gray;
+}
