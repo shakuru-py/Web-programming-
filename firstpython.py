@@ -10,6 +10,7 @@ def main():
       user_name = str(input("Hi,whats your name :\n").strip())
     except valueError as error:
       print(f"Typing Error", {error})
+      sys.exit(1)
     first_name, second_name = user_name.split(" ")
     print(
       f"""First name , {first_name}
